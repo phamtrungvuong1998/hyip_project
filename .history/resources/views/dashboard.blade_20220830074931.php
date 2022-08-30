@@ -137,7 +137,7 @@
                         @if ($value->rcb_ok == 0)
                             <button class="btn btn-danger">waiting</button>
                         @else
-                            <button class="btn btn-success">reset</button>
+                        <button class="btn btn-sucess">reset</button>
                         @endif
                     </td>
                     <td>1{{$value->withdraw_1_time}}</td>
@@ -156,6 +156,7 @@
                     </td>
                     <td>
                         <button class="btn btn-primary">EDIT</button>
+                        <button class="btn btn-danger">DELETE</button>
                     </td>
                 </tr>
                 @endforeach

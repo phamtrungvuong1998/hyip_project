@@ -11,14 +11,7 @@ class Hyip extends Model
     protected $fillable = [
         'link',
         'amount',
-        'rcb_first',
-        'rcb_second',
-        'daily',
-        'withdraw_1_time',
-        'working_day',
-        'fee',
-        'rcb_ok'
-    ];
+        'rcb_first', 'rcb_second', 'daily', 'withdraw_1_time', 'working_day', 'fee', 'rcb_ok'];
 
     public function addHyip($request)
     {

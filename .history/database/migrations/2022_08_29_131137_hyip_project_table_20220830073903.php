@@ -20,7 +20,7 @@ class HyipProjectTable extends Migration
             $table->float('fee',  8, 5);
             $table->float('rcb_first', 8, 5);
             $table->float('rcb_second', 8, 5)->nullable();
-            $table->integer('rcb_ok')->default('0');
+            $table->integer('rcb_ok');
             $table->float('daily', 8, 5);
             $table->float('withdraw_1_time', 8, 5);
             $table->float('working_day', 8, 5);

@@ -10,15 +10,7 @@ class Hyip extends Model
     use HasFactory;
     protected $fillable = [
         'link',
-        'amount',
-        'rcb_first',
-        'rcb_second',
-        'daily',
-        'withdraw_1_time',
-        'working_day',
-        'fee',
-        'rcb_ok'
-    ];
+        'amount', 'rcb_first', 'rcb_second', 'daily', 'withdraw_1_time', 'working_day', 'fee', 'rcb_ok'];
 
     public function addHyip($request)
     {

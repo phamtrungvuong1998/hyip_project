@@ -119,11 +119,9 @@
                     <th>FEE</th>
                     <th>RCB</th>
                     <th>WITHDRAW 1 TIME</th>
-                    <th>INTEREST</th>
                     <th>PERCENT COMPLETE</th>
                     <th>ACTION</th>
                     <th>SCAM</th>
-                    <th>EDIT</th>
                 </tr>
             </thead>
             <tbody>
@@ -137,11 +135,10 @@
                         @if ($value->rcb_ok == 0)
                             <button class="btn btn-danger">waiting</button>
                         @else
-                            <button class="btn btn-success">reset</button>
+                            <button class=""></button>
                         @endif
                     </td>
                     <td>1{{$value->withdraw_1_time}}</td>
-                    <td>12</td>
                     <td>
                         <div class="progress progress_hyip">
                             <div class="progress-bar progress-bar_hyip" style="width:12000%"></div>
@@ -153,9 +150,6 @@
                     </td>
                     <td>
                         <button class="btn btn-danger">SCAM</button>
-                    </td>
-                    <td>
-                        <button class="btn btn-primary">EDIT</button>
                     </td>
                 </tr>
                 @endforeach

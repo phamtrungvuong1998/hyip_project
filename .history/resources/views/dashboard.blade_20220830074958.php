@@ -156,6 +156,7 @@
                     </td>
                     <td>
                         <button class="btn btn-primary">EDIT</button>
+                        <button class="btn btn-danger">DELETE</button>
                     </td>
                 </tr>
                 @endforeach

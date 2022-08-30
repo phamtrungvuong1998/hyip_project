@@ -13,12 +13,7 @@ class Hyip extends Model
         'amount',
         'rcb_first',
         'rcb_second',
-        'daily',
-        'withdraw_1_time',
-        'working_day',
-        'fee',
-        'rcb_ok'
-    ];
+        'daily', 'withdraw_1_time', 'working_day', 'fee', 'rcb_ok'];
 
     public function addHyip($request)
     {
